@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+
+.container{
+
+    padding:80px 100px;
+}
+.navbar{
+    display: flex;
+    margin: 0 10px 0 10px;
+
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+
+}
+
+.nav-items{
+    margin: 0 10px;
+    font-family: 'Inter', sans-serif;
+
+}
+.nav-items:hover{
+    color: hsl(35, 77%, 62%);
+}
+.mid{
+    display: flex;
+}
+
+.left {
+    
+    width: 70%;
+}
+.left img{
+    width: 100%;
+}
+
+.left-bottom{
+    display: flex;
+    padding: 5px;
+}
+.heading{
+    font-family: 'Inter' , sans-serif;
+    font-weight: 800;
+    padding: 10px 32px;
+    font-size: 18px;
+
+}
+.para{
+    font-size: 15px;
+    font-family: 'Inter' , sans-serif;
+    padding: 10px 20px;
+    line-height: 25px;
+}
+
+.btn{
+    padding:10px 40px;
+    border: none;
+    background-color: hsl(5, 85%, 63%);
+    color: #fff;
+    font-family: 'Inter' , sans-serif;
+    
+}
+.btn:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.right{
+    
+    width: 30%;
+    margin-left: 50px;
+    color: white;
+    background-color: black;
+    font-family: 'Inter' , sans-serif;
+    font-size: 15px;
+    height: max-content;
+    
+
+}
+.right h1{
+    color: hsl(35, 77%, 62%);
+}
+.right h3:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+.right-center{
+    margin: 15px;
+    line-height: 25px;
+}
+
+.right hr{
+    color: white;
+    /* border: none; */
+}
+
+.cards{
+    display: flex;
+    margin: 20px 20px 0 20px;
+}
+.card{
+    width: 33.33%;
+    font-size: 12px;
+    font-family: 'Inter' , sans-serif;
+    margin: 20px 20px 0 20px;
+    display: flex;
+    line-height: 18px;
+    
+    
+}
+.card img{
+    float: left;
+    width: 120px;
+    height: max-content;
+}
+.card h1{
+    color:hsl(236, 13%, 42%) ;
+}
+
+.text{
+    margin: 10px;
+}
+/* Off-white: hsl(36, 100%, 99%)
+Grayish blue: hsl(233, 8%, 79%)
+Dark grayish blue: hsl(236, 13%, 42%)
+Very dark blue: hsl(240, 100%, 5%) */
+
+.attribution{
+    text-align: center;
+    margin-top: 20px;
+}
+.cards h2:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
